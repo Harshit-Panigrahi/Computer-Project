@@ -65,7 +65,7 @@ public class ChemFun {
       }
     }
     if (anum == 0) {
-      System.out.println("Element not found, try again");
+      System.out.println("Element not found, try again (TIP: If you are trying to find an element using it's name/symbol, put the first letter capital)");
     } else {
       System.out.println("Name: " + dict[anum][0]);
       System.out.println("Symbol: " + dict[anum][1]);
@@ -106,9 +106,9 @@ public class ChemFun {
   static void menu() {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("1) Full Periodic Table");
-    System.out.println("2) Element Search And Info");
-    System.out.println("3) Exit");
+    System.out.println("1) Full Periodic Table (ASCII art) 🎨");
+    System.out.println("2) Element Search And Info 🔎");
+    System.out.println("3) Exit ❌");
 
     while (true) {
       System.out.print("\nEnter your choice (1-3): ");
@@ -126,7 +126,17 @@ public class ChemFun {
 
         case 3:
           sc.close();
-          System.out.println("Exiting THE PERIODIC TABLE HELPER...\n\n");
+          //created a fake loading animation
+          System.out.print("Exiting ");
+            for (int i = 0; i < 5; i++) {
+            try {
+                Thread.sleep(500);
+                System.out.print(". ");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("Successfully exited!");
           return;
 
         default:
