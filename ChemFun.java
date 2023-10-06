@@ -2,6 +2,14 @@ import java.util.Scanner;
 
 public class ChemFun {
   public static void main(String[] args) {
+        System.out.println("                                                                                                                                                    ");
+        System.out.println(" _____ _____ _____      _____ _____ _____ _____ _____ ____  _____ _____      _____ _____ _____ __    _____      _____ _____ __    _____ _____ _____ ");
+        System.out.println("|_   _|  |  |   __|    |  _  |   __| __  |     |     |    ||     |     |    |_   _|  _  | __  |  |  |   __|    |  |  |   __|  |  |  _  |   __| __  |");
+        System.out.println("  | | |     |   __|    |   __|   __|    -|-   -|  |  |  |  |-   -|   --|      | | |     | __ -|  |__|   __|    |     |   __|  |__|   __|   __|    -|");
+        System.out.println("  |_| |__|__|_____|    |__|  |_____|__|__|_____|_____|____/|_____|_____|      |_| |__|__|_____|_____|_____|    |__|__|_____|_____|__|  |_____|__|__|");
+        System.out.println("                                                                                                                                                    ");
+        System.out.println("");
+        System.out.println("");
     Scanner sc = new Scanner(System.in);
     System.out.print("\nEnter atomic number: ");
     int inp = sc.nextInt();
@@ -39,7 +47,7 @@ public class ChemFun {
       { "Nickel", "Ni", "58.69", "[Ar]3d⁸4s²", "1453°C", "2730°C", "10" },
       { "Copper", "Cu", "63.55", "[Ar]3d¹⁰4s¹", "1083°C", "2567°C", "11" },
       { "Zinc", "Zn", "65.38", "[Ar]3d²4s²", "419.6°C", "906°C", "12" },
-      { "Gallium", "Ga", "69.72", "[Ar]3d¹⁰4s2²p¹", "29.8°C", "2403°C", "13" },
+      { "Gallium", "Ga", "69.72", "[Ar]3d¹⁰4s2²p¹", "29.8°C", "2403°C", "13" }, //31 elements done >:D
 
     };
 
