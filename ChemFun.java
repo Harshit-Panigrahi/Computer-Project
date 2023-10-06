@@ -82,11 +82,11 @@ public class ChemFun {
     System.out.println("\n ____________________________________________________________________________");
     System.out.println("|   | 1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18 |");
     System.out.println("|---+------------------------------------------------------------------------|");
-    System.out.println("| 1 | H                                                                   He |");
-    System.out.println("|   |                                                                        |");
-    System.out.println("| 2 | Li  Be                                          B   C   N   O   F   Ne |");
-    System.out.println("|   |                                                                        |");
-    System.out.println("| 3 | Na  Mg                                          Al  Si  P   S   Cl  Ar |");
+    System.out.println("| 1 | H                 __________                                        He |");
+    System.out.println("|   |                  |    H   ¹ |                                          |");
+    System.out.println("| 2 | Li  Be           | Hydrogen |                   B   C   N   O   F   Ne |");
+    System.out.println("|   |                  |  1.008   |                                          |");
+    System.out.println("| 3 | Na  Mg           |__________|                   Al  Si  P   S   Cl  Ar |");
     System.out.println("|   |                                                                        |");
     System.out.println("| 4 | K   Ca  Sc  Ti  V   Cr  Mn  Fe  Co  Ni  Cu  Zn  Ga  Ge  As  Se  Br  Kr |");
     System.out.println("|   |                                                                        |");
@@ -95,12 +95,12 @@ public class ChemFun {
     System.out.println("| 6 | Cs  Ba   *  Hf  Ta  W   Re  Os  Ir  Pt  Au  Hg  Tl  Pb  Bi  Po  At  Rn |");
     System.out.println("|   |                                                                        |");
     System.out.println("| 7 | Fr  Ra  **  Rf  Db  Sg  Bh  Hs  Mt  Ds  Rg  Cn  Nh  Fl  Mc  Lv  Ts  Og |");
-    System.out.println("|___|________________________________________________________________________|");
-    System.out.println("|              |                                                             |");
-    System.out.println("| *Lanthanoids | La  Ce  Pr  Nd  Pm  Sm  Eu  Gd  Tb  Dy  Ho  Er  Tm  Yb  Lu  |");
-    System.out.println("|              |                                                             |");
-    System.out.println("| **Actinoids  | Ac  Th  Pa  U   Np  Pu  Am  Cm  Bk  Cf  Es  Fm  Md  No  Lr  |");
-    System.out.println("|______________|_____________________________________________________________|\n");
+    System.out.println("|---+--------+---------------------------------------------------------------|");
+    System.out.println("|            |                                                               |");
+    System.out.println("|*Lanthanoids| La  Ce  Pr  Nd  Pm  Sm  Eu  Gd  Tb  Dy  Ho  Er  Tm  Yb  Lu    |");
+    System.out.println("|            |                                                               |");
+    System.out.println("|**Actinoids | Ac  Th  Pa  U   Np  Pu  Am  Cm  Bk  Cf  Es  Fm  Md  No  Lr    |");
+    System.out.println("|____________|_______________________________________________________________|\n");
   }
 
   static void menu() {
