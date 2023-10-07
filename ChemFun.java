@@ -119,7 +119,7 @@ public class ChemFun {
           break;
         
         case 2:
-          System.out.print("Search element by name/symbol/number: ");
+          System.out.print("Search element by name/symbol/atomic number: ");
           String inp = sc.next();
           ChemFun.elemSearch(inp);
           break;
