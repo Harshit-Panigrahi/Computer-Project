@@ -74,7 +74,7 @@ public class ChemFun {
       System.out.println("Group: " + dict[anum][6]);
       System.out.println("Period: " + dict[anum][7]);
       System.out.println("Melting point: " + dict[anum][4]);
-      System.out.println("Period: " + dict[anum][5]);
+      System.out.println("Boiling point: " + dict[anum][5]);
     }
   }
 
